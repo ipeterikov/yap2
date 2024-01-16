@@ -1,0 +1,52 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 1.1em;
+  }
+
+  body {
+    background-color: #3d82b1;
+  }
+
+  .container {
+    background-color: #efe8e8;
+    width: 80%;
+    max-width: 37.5em;
+    padding: 2.5em 2em 1.5em 2em;
+    position: absolute;
+    top: 5%;
+    left: 25%;
+    border-radius: 0.62em;
+    box-shadow: 0 1.25em 1.8em rgba(1, 7, 28, 0.25);
+  }
+
+  .generate-wrapper {
+    display: grid;
+    grid-template-columns: 9fr 3fr;
+    gap: 1.25em;
+  }
+
+  button {
+    font-size: 1em;
+    background-color: #3d82b1;
+    color: #ffffff;
+    padding: 0.2em 0;
+    border: none;
+    border-radius: 2.5em;
+  }
+
+  button:hover {
+    cursor: pointer;
+  }
+
+  input {
+    font-size: 1em;
+    padding: 0 0.62em;
+    outline: none;
+  }
+
+  #result {
+    margin-top: 1.25em;
+  }

@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lab 2</title>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+    <div class="container">
+      <div class="generate-wrapper">
+      <ab>Строчные буквы</ab>
+      <input type="checkbox" id="lowC">
+      <ab>Заглавные буквы</ab>
+      <input type="checkbox" id="upC">
+      <ab>Цифры</ab>
+      <input type="checkbox" id="num">
+      <ab>Спец символы</ab>
+      <input type="checkbox" id="symbols">
+      <ab>Длина пароля:</ab>
+      <input type="number" id="length" min="1" value="1">
+      <ab>Количество паролей:</ab>
+      <input type="number" id="count" min="1" value="1">
+      <button id="generate-btn">Generate</button>
+    </div>
+    <div id="result"></div>
+        </div>
+        
+    </div>
+    <script src="index.js"></script>
+</body>
+</html>
